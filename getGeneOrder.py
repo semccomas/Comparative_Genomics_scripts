@@ -30,7 +30,7 @@ id = 0
 for aLine in lines:
 
 	aLine = aLine.replace ("\n", "")
-#	words = aLine.split ("\t") #just a list of the each line   #HEY I COMMENTED THIS ONE OUT LOOK HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#	words = aLine.split ("\t") #just a list of the each line , commenting this one out because I don't want to split by tabs but don't want to forget what they had... 
 	words= aLine.split()
 	
 	
